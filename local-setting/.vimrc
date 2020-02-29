@@ -1,7 +1,7 @@
 runtime vimrc_example.vim
 let &runtimepath.=',/root/.vim/'
 set rtp+=~/.fzf
-
+set encoding=utf-8
 "
 filetype plugin on
 "
