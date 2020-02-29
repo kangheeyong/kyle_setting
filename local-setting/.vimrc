@@ -92,8 +92,7 @@ let g:solarized_termtrans=1
 colorscheme solarized
 "colorscheme asmanian2
 
-set backupdir=/daum/tmp
-
+set backupdir=/root/tmp
 
 " ----c---- "
 " use NUL instead /dev/null in Windows
