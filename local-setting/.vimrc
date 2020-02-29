@@ -2,7 +2,6 @@ runtime vimrc_example.vim
 let &runtimepath.=',/root/.vim/'
 set rtp+=~/.fzf
 set encoding=utf-8
-export TERM="screen-256color"
 "
 filetype plugin on
 "
