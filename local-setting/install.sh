@@ -14,3 +14,7 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 git clone https://github.com/tpope/vim-sensible.git ~/.vim/bundle/vim-sensible/
 cp -r colors ~/.vim/colors
 cp .vimrc ~/.vimrc
+apt-get install ctags -y
+apt-get install tmux -y
+cp .tmux.conf ~/.tmux.conf
+
