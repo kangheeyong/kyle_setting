@@ -71,6 +71,7 @@ ZSH_THEME="avit"
 plugins=(git
     zsh-syntax-highlighting
     zsh-autosuggestions
+    tmux
     )
 
 source $ZSH/oh-my-zsh.sh
