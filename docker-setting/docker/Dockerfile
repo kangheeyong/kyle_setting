@@ -6,6 +6,7 @@ ENV TERM screen-256color
 
 RUN apt-get update -y
 RUN apt-get install git -y
+RUN git clone https://github.com/kangheeyong/kyle_setting.git /home/kyle_setting
 
 RUN apt-get install python3-pip -y
 RUN apt-get install python3.7 -y
