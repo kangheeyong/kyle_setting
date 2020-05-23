@@ -12,3 +12,5 @@ RUN apt-get install python3-pip -y
 RUN apt-get install python3.7 -y
 RUN update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 3
 RUN python3 -m pip install --upgrade --force-reinstall pip
+
+RUN pip3 install tensorflow
