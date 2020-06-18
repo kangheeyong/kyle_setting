@@ -19,3 +19,10 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 cp .zshrc ~/.zshrc
 sudo chsh $USER -s $(which zsh)
 
+sudo apt-get install tmux -y
+git clone https://github.com/gpakosz/.tmux.git ~/.tmux
+ln -s ~/.tmux/.tmux.conf  ~/.tmux.conf
+cp ~/.tmux/.tmux.conf.local ~/
+
+
+
