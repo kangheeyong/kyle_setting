@@ -1,3 +1,5 @@
+sudo passwd root 
+sudo cp chsh /etc/pam.d/chsh
 sudo apt-get update
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 mkdir -p ~/.vim/autoload ~/.vim/bundle 
