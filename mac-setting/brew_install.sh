@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 brew install tree
-brew isntall htop
+brew install htop
 
 brew cask install google-chrome
 brew cask install docker
