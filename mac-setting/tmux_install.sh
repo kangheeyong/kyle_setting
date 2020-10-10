@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 brew install tmux
 git clone https://github.com/gpakosz/.tmux.git ~/.tmux
 ln -s ~/.tmux/.tmux.conf  ~/.tmux.conf
